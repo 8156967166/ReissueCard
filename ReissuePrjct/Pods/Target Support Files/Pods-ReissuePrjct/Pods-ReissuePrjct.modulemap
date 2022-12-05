@@ -1,0 +1,6 @@
+framework module Pods_ReissuePrjct {
+  umbrella header "Pods-ReissuePrjct-umbrella.h"
+
+  export *
+  module * { export * }
+}

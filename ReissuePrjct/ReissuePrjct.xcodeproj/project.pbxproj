@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516AD73DE14252570E33ABF6 /* Pods_ReissuePrjct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D2D9E686AB960C851EEB98 /* Pods_ReissuePrjct.framework */; };
+		CE5639A62901891C0096D03F /* DeliveryModeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5639A52901891B0096D03F /* DeliveryModeModel.swift */; };
+		CE5639A8290190B80096D03F /* CardRecipientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5639A7290190B80096D03F /* CardRecipientModel.swift */; };
+		CE5639AA290190F00096D03F /* CradRecipientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5639A9290190F00096D03F /* CradRecipientTableViewCell.swift */; };
+		CE5639AC290191140096D03F /* CardRecipientTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5639AB290191140096D03F /* CardRecipientTableViewCellModel.swift */; };
+		CE69C858290169DD00935C49 /* DocumentDropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C857290169DC00935C49 /* DocumentDropDownTableViewCell.swift */; };
+		CE69C85A290169FA00935C49 /* DocumentdropDownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C859290169FA00935C49 /* DocumentdropDownModel.swift */; };
+		CE69C85C29016A3700935C49 /* DocumentTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C85B29016A3700935C49 /* DocumentTableViewCellModel.swift */; };
+		CEDD253C2900FCF40043DACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD253B2900FCF40043DACA /* AppDelegate.swift */; };
+		CEDD253E2900FCF40043DACA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD253D2900FCF40043DACA /* SceneDelegate.swift */; };
+		CEDD25402900FCF40043DACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD253F2900FCF40043DACA /* ViewController.swift */; };
+		CEDD25432900FCF40043DACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDD25412900FCF40043DACA /* Main.storyboard */; };
+		CEDD25452900FCF70043DACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDD25442900FCF70043DACA /* Assets.xcassets */; };
+		CEDD25482900FCF70043DACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDD25462900FCF70043DACA /* LaunchScreen.storyboard */; };
+		CEDD25542900FE440043DACA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD25532900FE440043DACA /* BaseViewController.swift */; };
+		CEDD25562900FE600043DACA /* PersonalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD25552900FE600043DACA /* PersonalDetailViewController.swift */; };
+		CEDD25582900FE7F0043DACA /* ReasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD25572900FE7F0043DACA /* ReasonViewController.swift */; };
+		CEDD255A2900FE950043DACA /* DeliveryModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD25592900FE950043DACA /* DeliveryModeViewController.swift */; };
+		CEDD255C2900FEFC0043DACA /* PersonalDetailTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD255B2900FEFC0043DACA /* PersonalDetailTableViewCellModel.swift */; };
+		CEDD255E2900FF3B0043DACA /* ReasonTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD255D2900FF3B0043DACA /* ReasonTableViewCellModel.swift */; };
+		CEDD25602900FF630043DACA /* DeliveryModeTableViewcellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD255F2900FF630043DACA /* DeliveryModeTableViewcellModel.swift */; };
+		CEDD25622900FF8B0043DACA /* DeliveryModeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD25612900FF8B0043DACA /* DeliveryModeTableViewCell.swift */; };
+		CEDD25642900FF960043DACA /* ReasonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD25632900FF960043DACA /* ReasonTableViewCell.swift */; };
+		CEDD25662900FFA80043DACA /* PersonalDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD25652900FFA80043DACA /* PersonalDetailTableViewCell.swift */; };
+		CEDD25682900FFC20043DACA /* ReissueCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD25672900FFC20043DACA /* ReissueCard.swift */; };
+		CEDD256A29011FDA0043DACA /* PersonalDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD256929011FDA0043DACA /* PersonalDetailModel.swift */; };
+		CEDD256C290130910043DACA /* TamwinCardNumberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD256B290130910043DACA /* TamwinCardNumberModel.swift */; };
+		CEDD256E290132010043DACA /* TamwinCardNoDropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD256D290132010043DACA /* TamwinCardNoDropDownTableViewCell.swift */; };
+		CEDD2570290132380043DACA /* TamwinCardNoDropDownTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD256F290132380043DACA /* TamwinCardNoDropDownTableViewCellModel.swift */; };
+		CEDD257229014E350043DACA /* ReasonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD257129014E350043DACA /* ReasonModel.swift */; };
+		CEDD2574290153B10043DACA /* ReasonDropDownTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD2573290153B10043DACA /* ReasonDropDownTableViewCellModel.swift */; };
+		CEDD2576290154870043DACA /* ReasonDropDownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD2575290154870043DACA /* ReasonDropDownModel.swift */; };
+		CEDD2578290155090043DACA /* ReasonDropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD2577290155090043DACA /* ReasonDropDownTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CED21D518A24213DE56FF15 /* Pods-ReissuePrjct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReissuePrjct.debug.xcconfig"; path = "Target Support Files/Pods-ReissuePrjct/Pods-ReissuePrjct.debug.xcconfig"; sourceTree = "<group>"; };
+		86D2D9E686AB960C851EEB98 /* Pods_ReissuePrjct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReissuePrjct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5639A52901891B0096D03F /* DeliveryModeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryModeModel.swift; sourceTree = "<group>"; };
+		CE5639A7290190B80096D03F /* CardRecipientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRecipientModel.swift; sourceTree = "<group>"; };
+		CE5639A9290190F00096D03F /* CradRecipientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CradRecipientTableViewCell.swift; sourceTree = "<group>"; };
+		CE5639AB290191140096D03F /* CardRecipientTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRecipientTableViewCellModel.swift; sourceTree = "<group>"; };
+		CE69C857290169DC00935C49 /* DocumentDropDownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDropDownTableViewCell.swift; sourceTree = "<group>"; };
+		CE69C859290169FA00935C49 /* DocumentdropDownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentdropDownModel.swift; sourceTree = "<group>"; };
+		CE69C85B29016A3700935C49 /* DocumentTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCellModel.swift; sourceTree = "<group>"; };
+		CEDD25382900FCF40043DACA /* ReissuePrjct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReissuePrjct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDD253B2900FCF40043DACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDD253D2900FCF40043DACA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEDD253F2900FCF40043DACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDD25422900FCF40043DACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDD25442900FCF70043DACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDD25472900FCF70043DACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDD25492900FCF70043DACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDD25532900FE440043DACA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CEDD25552900FE600043DACA /* PersonalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailViewController.swift; sourceTree = "<group>"; };
+		CEDD25572900FE7F0043DACA /* ReasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonViewController.swift; sourceTree = "<group>"; };
+		CEDD25592900FE950043DACA /* DeliveryModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryModeViewController.swift; sourceTree = "<group>"; };
+		CEDD255B2900FEFC0043DACA /* PersonalDetailTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailTableViewCellModel.swift; sourceTree = "<group>"; };
+		CEDD255D2900FF3B0043DACA /* ReasonTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonTableViewCellModel.swift; sourceTree = "<group>"; };
+		CEDD255F2900FF630043DACA /* DeliveryModeTableViewcellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryModeTableViewcellModel.swift; sourceTree = "<group>"; };
+		CEDD25612900FF8B0043DACA /* DeliveryModeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryModeTableViewCell.swift; sourceTree = "<group>"; };
+		CEDD25632900FF960043DACA /* ReasonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonTableViewCell.swift; sourceTree = "<group>"; };
+		CEDD25652900FFA80043DACA /* PersonalDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailTableViewCell.swift; sourceTree = "<group>"; };
+		CEDD25672900FFC20043DACA /* ReissueCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReissueCard.swift; sourceTree = "<group>"; };
+		CEDD256929011FDA0043DACA /* PersonalDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailModel.swift; sourceTree = "<group>"; };
+		CEDD256B290130910043DACA /* TamwinCardNumberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamwinCardNumberModel.swift; sourceTree = "<group>"; };
+		CEDD256D290132010043DACA /* TamwinCardNoDropDownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamwinCardNoDropDownTableViewCell.swift; sourceTree = "<group>"; };
+		CEDD256F290132380043DACA /* TamwinCardNoDropDownTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamwinCardNoDropDownTableViewCellModel.swift; sourceTree = "<group>"; };
+		CEDD257129014E350043DACA /* ReasonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonModel.swift; sourceTree = "<group>"; };
+		CEDD2573290153B10043DACA /* ReasonDropDownTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonDropDownTableViewCellModel.swift; sourceTree = "<group>"; };
+		CEDD2575290154870043DACA /* ReasonDropDownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonDropDownModel.swift; sourceTree = "<group>"; };
+		CEDD2577290155090043DACA /* ReasonDropDownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonDropDownTableViewCell.swift; sourceTree = "<group>"; };
+		DD491911032E11FE339F42BC /* Pods-ReissuePrjct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReissuePrjct.release.xcconfig"; path = "Target Support Files/Pods-ReissuePrjct/Pods-ReissuePrjct.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDD25352900FCF40043DACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516AD73DE14252570E33ABF6 /* Pods_ReissuePrjct.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C94B21E32D7CC2F27BB3AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CED21D518A24213DE56FF15 /* Pods-ReissuePrjct.debug.xcconfig */,
+				DD491911032E11FE339F42BC /* Pods-ReissuePrjct.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		530F3B426BBDDA0526279D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86D2D9E686AB960C851EEB98 /* Pods_ReissuePrjct.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDD252F2900FCF40043DACA = {
+			isa = PBXGroup;
+			children = (
+				CEDD253A2900FCF40043DACA /* ReissuePrjct */,
+				CEDD25392900FCF40043DACA /* Products */,
+				19C94B21E32D7CC2F27BB3AC /* Pods */,
+				530F3B426BBDDA0526279D08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDD25392900FCF40043DACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD25382900FCF40043DACA /* ReissuePrjct.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDD253A2900FCF40043DACA /* ReissuePrjct */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD253B2900FCF40043DACA /* AppDelegate.swift */,
+				CEDD253D2900FCF40043DACA /* SceneDelegate.swift */,
+				CEDD253F2900FCF40043DACA /* ViewController.swift */,
+				CEDD254F2900FDC50043DACA /* Model */,
+				CEDD25502900FDCB0043DACA /* View */,
+				CEDD25512900FDD00043DACA /* ViewModel */,
+				CEDD25522900FDD70043DACA /* Controller */,
+				CEDD25412900FCF40043DACA /* Main.storyboard */,
+				CEDD25442900FCF70043DACA /* Assets.xcassets */,
+				CEDD25462900FCF70043DACA /* LaunchScreen.storyboard */,
+				CEDD25492900FCF70043DACA /* Info.plist */,
+			);
+			path = ReissuePrjct;
+			sourceTree = "<group>";
+		};
+		CEDD254F2900FDC50043DACA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD25672900FFC20043DACA /* ReissueCard.swift */,
+				CEDD256929011FDA0043DACA /* PersonalDetailModel.swift */,
+				CEDD256B290130910043DACA /* TamwinCardNumberModel.swift */,
+				CEDD257129014E350043DACA /* ReasonModel.swift */,
+				CEDD2575290154870043DACA /* ReasonDropDownModel.swift */,
+				CE69C859290169FA00935C49 /* DocumentdropDownModel.swift */,
+				CE5639A52901891B0096D03F /* DeliveryModeModel.swift */,
+				CE5639A7290190B80096D03F /* CardRecipientModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDD25502900FDCB0043DACA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD25652900FFA80043DACA /* PersonalDetailTableViewCell.swift */,
+				CEDD25632900FF960043DACA /* ReasonTableViewCell.swift */,
+				CEDD25612900FF8B0043DACA /* DeliveryModeTableViewCell.swift */,
+				CEDD256D290132010043DACA /* TamwinCardNoDropDownTableViewCell.swift */,
+				CEDD2577290155090043DACA /* ReasonDropDownTableViewCell.swift */,
+				CE69C857290169DC00935C49 /* DocumentDropDownTableViewCell.swift */,
+				CE5639A9290190F00096D03F /* CradRecipientTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDD25512900FDD00043DACA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD255B2900FEFC0043DACA /* PersonalDetailTableViewCellModel.swift */,
+				CEDD255D2900FF3B0043DACA /* ReasonTableViewCellModel.swift */,
+				CEDD255F2900FF630043DACA /* DeliveryModeTableViewcellModel.swift */,
+				CEDD256F290132380043DACA /* TamwinCardNoDropDownTableViewCellModel.swift */,
+				CEDD2573290153B10043DACA /* ReasonDropDownTableViewCellModel.swift */,
+				CE69C85B29016A3700935C49 /* DocumentTableViewCellModel.swift */,
+				CE5639AB290191140096D03F /* CardRecipientTableViewCellModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEDD25522900FDD70043DACA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD25532900FE440043DACA /* BaseViewController.swift */,
+				CEDD25552900FE600043DACA /* PersonalDetailViewController.swift */,
+				CEDD25572900FE7F0043DACA /* ReasonViewController.swift */,
+				CEDD25592900FE950043DACA /* DeliveryModeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDD25372900FCF40043DACA /* ReissuePrjct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDD254C2900FCF70043DACA /* Build configuration list for PBXNativeTarget "ReissuePrjct" */;
+			buildPhases = (
+				7F82FFC6BDDDBDF84F6F18D1 /* [CP] Check Pods Manifest.lock */,
+				CEDD25342900FCF40043DACA /* Sources */,
+				CEDD25352900FCF40043DACA /* Frameworks */,
+				CEDD25362900FCF40043DACA /* Resources */,
+				9619685B2623BE753F5CA39D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReissuePrjct;
+			productName = ReissuePrjct;
+			productReference = CEDD25382900FCF40043DACA /* ReissuePrjct.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDD25302900FCF40043DACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CEDD25372900FCF40043DACA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = CEDD25332900FCF40043DACA /* Build configuration list for PBXProject "ReissuePrjct" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDD252F2900FCF40043DACA;
+			productRefGroup = CEDD25392900FCF40043DACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDD25372900FCF40043DACA /* ReissuePrjct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDD25362900FCF40043DACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDD25482900FCF70043DACA /* LaunchScreen.storyboard in Resources */,
+				CEDD25452900FCF70043DACA /* Assets.xcassets in Resources */,
+				CEDD25432900FCF40043DACA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F82FFC6BDDDBDF84F6F18D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReissuePrjct-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9619685B2623BE753F5CA39D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReissuePrjct/Pods-ReissuePrjct-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReissuePrjct/Pods-ReissuePrjct-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReissuePrjct/Pods-ReissuePrjct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDD25342900FCF40043DACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5639A62901891C0096D03F /* DeliveryModeModel.swift in Sources */,
+				CE5639A8290190B80096D03F /* CardRecipientModel.swift in Sources */,
+				CEDD25582900FE7F0043DACA /* ReasonViewController.swift in Sources */,
+				CEDD25402900FCF40043DACA /* ViewController.swift in Sources */,
+				CEDD25602900FF630043DACA /* DeliveryModeTableViewcellModel.swift in Sources */,
+				CE69C85A290169FA00935C49 /* DocumentdropDownModel.swift in Sources */,
+				CE5639AA290190F00096D03F /* CradRecipientTableViewCell.swift in Sources */,
+				CEDD255E2900FF3B0043DACA /* ReasonTableViewCellModel.swift in Sources */,
+				CEDD255A2900FE950043DACA /* DeliveryModeViewController.swift in Sources */,
+				CEDD25562900FE600043DACA /* PersonalDetailViewController.swift in Sources */,
+				CEDD256E290132010043DACA /* TamwinCardNoDropDownTableViewCell.swift in Sources */,
+				CEDD2576290154870043DACA /* ReasonDropDownModel.swift in Sources */,
+				CE69C858290169DD00935C49 /* DocumentDropDownTableViewCell.swift in Sources */,
+				CEDD2570290132380043DACA /* TamwinCardNoDropDownTableViewCellModel.swift in Sources */,
+				CEDD255C2900FEFC0043DACA /* PersonalDetailTableViewCellModel.swift in Sources */,
+				CEDD25642900FF960043DACA /* ReasonTableViewCell.swift in Sources */,
+				CEDD2574290153B10043DACA /* ReasonDropDownTableViewCellModel.swift in Sources */,
+				CEDD25662900FFA80043DACA /* PersonalDetailTableViewCell.swift in Sources */,
+				CEDD25542900FE440043DACA /* BaseViewController.swift in Sources */,
+				CEDD257229014E350043DACA /* ReasonModel.swift in Sources */,
+				CEDD256C290130910043DACA /* TamwinCardNumberModel.swift in Sources */,
+				CE69C85C29016A3700935C49 /* DocumentTableViewCellModel.swift in Sources */,
+				CEDD253C2900FCF40043DACA /* AppDelegate.swift in Sources */,
+				CEDD25622900FF8B0043DACA /* DeliveryModeTableViewCell.swift in Sources */,
+				CEDD2578290155090043DACA /* ReasonDropDownTableViewCell.swift in Sources */,
+				CEDD256A29011FDA0043DACA /* PersonalDetailModel.swift in Sources */,
+				CEDD25682900FFC20043DACA /* ReissueCard.swift in Sources */,
+				CE5639AC290191140096D03F /* CardRecipientTableViewCellModel.swift in Sources */,
+				CEDD253E2900FCF40043DACA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDD25412900FCF40043DACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDD25422900FCF40043DACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDD25462900FCF70043DACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDD25472900FCF70043DACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDD254A2900FCF70043DACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDD254B2900FCF70043DACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDD254D2900FCF70043DACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CED21D518A24213DE56FF15 /* Pods-ReissuePrjct.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReissuePrjct/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.ReissuePrjct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDD254E2900FCF70043DACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD491911032E11FE339F42BC /* Pods-ReissuePrjct.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReissuePrjct/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.ReissuePrjct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDD25332900FCF40043DACA /* Build configuration list for PBXProject "ReissuePrjct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDD254A2900FCF70043DACA /* Debug */,
+				CEDD254B2900FCF70043DACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDD254C2900FCF70043DACA /* Build configuration list for PBXNativeTarget "ReissuePrjct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDD254D2900FCF70043DACA /* Debug */,
+				CEDD254E2900FCF70043DACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDD25302900FCF40043DACA /* Project object */;
+}
